@@ -1,0 +1,30 @@
+{
+  "name": "webdriverio-mock",
+  "version": "1.0.0",
+  "description": "webdriver mock test",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "mockserver": "java -jar mockserver-netty-*-jar-with-dependencies.jar -serverPort 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscspinho/webdriverio-mock.git"
+  },
+  "author": "Luis Pinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscspinho/webdriverio-mock/issues"
+  },
+  "homepage": "https://github.com/luiscspinho/webdriverio-mock#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.10.4",
+    "@wdio/local-runner": "^5.10.4",
+    "@wdio/mocha-framework": "^5.10.1",
+    "@wdio/selenium-standalone-service": "^5.9.3",
+    "@wdio/spec-reporter": "^5.9.3",
+    "@wdio/sync": "^5.10.1",
+    "mockserver-client": "^5.5.4",
+    "pidtree": "^0.3.0",
+    "webdriverio": "^5.10.4"
+  }
+}
